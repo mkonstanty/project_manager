@@ -1,0 +1,11 @@
+<% if !@memberships.empty? %>
+
+  <p>Lista projektów:</p>
+
+  <%= render(:partial => "membership", :collection => @memberships) %>
+
+<% else %>
+
+  Brak projektów przypisanych do mnie.
+
+<% end %>

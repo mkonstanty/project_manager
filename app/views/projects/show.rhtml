@@ -1,0 +1,17 @@
+<p>Informacje o projekcie <b><%=h @project.name %></b></p>
+<span>Deadline: <%=h @project.due_date.to_s%></span>
+<p><%=h @project.description %></p>
+<span>Priorytet: <%=h priority_name(@project.priority)%></span> | <span>Status: <%=h status_name(@project.status) %></span>
+(<%= link_to "Zmień", :action => :edit, :id => @project.id%>)
+<br/>
+<span>Developerzy:</span>
+ | <%= render(:partial => "developer", :collection => @project.users) -%>
+<br/>
+<%= render(:partial => "comment", :collection => @project.comments) -%>
+<br/>
+<% form_for :comment, :url => {:controller => "/projects", :action => :add_comment} do |f| %>
+<label for="content">Dodaj wiadomość:</label><br/>
+<p><%= f.text_field :content %></p>
+<%= hidden_field :project, :id %>
+<p><%= submit_tag "Dodaj komentarz" %></p>
+<% end -%>

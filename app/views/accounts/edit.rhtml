@@ -1,0 +1,11 @@
+<%= error_messages_for :user %>
+<% form_for :user, current_user, :url => {:action => :edit} do |f| -%>
+
+<p><label for="password">Hasło</label><br/>
+<%= f.password_field :password %></p>
+
+<p><label for="password_confirmation">Potwierdź hasło</label><br/>
+<%= f.password_field :password_confirmation %></p>
+
+<p><%= submit_tag 'Uaktualnij' %></p>
+<% end -%>

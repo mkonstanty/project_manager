@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+  <title>Project Manager Pro</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link href="/stylesheets/common.css" rel="stylesheet" type="text/css"/>
+  <%= javascript_include_tag :defaults %>
+  <%= active_scaffold_includes %>
+</head>
+<body>
+<div id="wrapper">
+    <div id="header"> <%= link_to image_tag("logo_header.gif"), :controller => '/projects' %></div>
+<ul id="nav">
+  <% if logged_in? %>
+    <li><%= link_to "Edycja danych", :controller => '/accounts', :action => :edit %></li>
+    <li><%= link_to "Moje projekty", :controller => '/projects', :action => :index %></li>
+    <li><%= link_to "Wyloguj", :controller => '/accounts', :action => :logout %></li>
+  <% end %>
+</ul>
+
+<% if flash[:notice] %>
+  <p>Flash: <%= flash[:notice] %></p>
+<% end %>
+<div id="content" class="clearfix">
+  <div id="col_1">
+    <h2>Information</h2>
+    <% if logged_in? %>
+      <p>Zalogowany jako: <%=h current_user.login %><p>
+    <% end %>
+    <ul id="subnav">
+      <li><%=  link_to 'Zarządzaj projektami', :controller => 'admin/projects' %></li>
+      <li><%=  link_to 'Zarządzaj użytkownikami', :controller => 'admin/users' %></li>
+      <li><%=  link_to 'Dodaj użytkownika do projektu', :controller => 'admin/memberships' %></li>
+    </ul>
+  </div>
+  <div id="col_2">
+    <%= yield %>
+  </div>
+</div>
+<div id="footer"><small>All content copyright &copy; 2006 Your Site, all rights reserved.<br />
+Layout by <a href="http://cssweblayouts.com/" target="_blank">CSS Web Layouts</a></a></small></div>
+</div>
+</body>
+</html>

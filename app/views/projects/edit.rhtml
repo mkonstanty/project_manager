@@ -1,0 +1,8 @@
+<% form_for :project, @project, :url => {:controller => :projects, :action => :edit} do |f| %>
+<label for="status">Status</label>
+<p><%= f.select :status, (0..3).collect{|i| [status_name(i), i]} %></p>
+<label for="priority">Priorytet</label>
+<p><%= f.select :priority, (0..2).collect{|i| [priority_name(i), i]} %></p>
+<%= hidden_field :project, :id %>
+<p><%= submit_tag "Uaktualnij" %></p>
+<% end -%>
