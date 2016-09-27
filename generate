@@ -1,0 +1,400 @@
+Script started on nie, 8 mar 2009, 20:54:42
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ lscd ..[3Pls | grep status | xargs rm[Kcd ..[3Pls[Kscript/generate cpn[K[Kontroller ami[K[Kdmin/users
+/var/lib/gems/1.8/gems/activesupport-2.1.1/lib/active_support/core_ext/module/aliasing.rb:31:in `alias_method': undefined method `find_full_template_path' for class `ActionView::Base' (NameError)
+	from /var/lib/gems/1.8/gems/activesupport-2.1.1/lib/active_support/core_ext/module/aliasing.rb:31:in `alias_method_chain'
+	from /home/gorsky/projekty/rails/project_manager/vendor/plugins/active_scaffold/lib/extensions/generic_view_paths.rb:33
+	from /usr/lib/ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /usr/lib/ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from /var/lib/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+	from /var/lib/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:355:in `new_constants_in'
+	from /var/lib/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+	from /home/gorsky/projekty/rails/project_manager/vendor/plugins/active_scaffold/environment.rb:63
+	 ... 22 levels...
+	from /var/lib/gems/1.8/gems/rails-2.1.1/lib/commands/generate.rb:1
+	from /usr/lib/ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /usr/lib/ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from script/generate:3
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ script/generate controller admin/users[K[K[K[K[K[K[Kn
+/var/lib/gems/1.8/gems/activesupport-2.1.1/lib/active_support/core_ext/module/aliasing.rb:31:in `alias_method': undefined method `find_full_template_path' for class `ActionView::Base' (NameError)
+	from /var/lib/gems/1.8/gems/activesupport-2.1.1/lib/active_support/core_ext/module/aliasing.rb:31:in `alias_method_chain'
+	from /home/gorsky/projekty/rails/project_manager/vendor/plugins/active_scaffold/lib/extensions/generic_view_paths.rb:33
+	from /usr/lib/ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /usr/lib/ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from /var/lib/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+	from /var/lib/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:355:in `new_constants_in'
+	from /var/lib/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+	from /home/gorsky/projekty/rails/project_manager/vendor/plugins/active_scaffold/environment.rb:63
+	 ... 22 levels...
+	from /var/lib/gems/1.8/gems/rails-2.1.1/lib/commands/generate.rb:1
+	from /usr/lib/ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /usr/lib/ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from script/generate:3
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ script/generate controller luls
+/var/lib/gems/1.8/gems/activesupport-2.1.1/lib/active_support/core_ext/module/aliasing.rb:31:in `alias_method': undefined method `find_full_template_path' for class `ActionView::Base' (NameError)
+	from /var/lib/gems/1.8/gems/activesupport-2.1.1/lib/active_support/core_ext/module/aliasing.rb:31:in `alias_method_chain'
+	from /home/gorsky/projekty/rails/project_manager/vendor/plugins/active_scaffold/lib/extensions/generic_view_paths.rb:33
+	from /usr/lib/ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /usr/lib/ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from /var/lib/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+	from /var/lib/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:355:in `new_constants_in'
+	from /var/lib/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+	from /home/gorsky/projekty/rails/project_manager/vendor/plugins/active_scaffold/environment.rb:63
+	 ... 22 levels...
+	from /var/lib/gems/1.8/gems/rails-2.1.1/lib/commands/generate.rb:1
+	from /usr/lib/ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /usr/lib/ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from script/generate:3
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ ls
+[00m[01;34mapp[00m     [01;34mdb[00m   [00mgenerate[00m  [01;34mlog[00m                          [01;34mpublic[00m    [00mREADME[00m  [01;34mtest[00m  [01;34mvendor[00m
+[01;34mconfig[00m  [01;34mdoc[00m  [01;34mlib[00m       [00mproject_manager_development[00m  [00mRakefile[00m  [01;34mscript[00m  [01;34mtmp[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ cd app/
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/appgorsky@gorsky-laptop:~/projekty/rails/project_manager/app$ ls
+[00m[01;34mcontrollers[00m  [01;34mhelpers[00m  [01;34mmodels[00m  [01;34mviews[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/appgorsky@gorsky-laptop:~/projekty/rails/project_manager/app$ cd controllers/
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/controllersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/controllers$ ls
+[00m[00maccount_controller.rb~[00m  [00maccounts_controller.rb~[00m  [00mapplication.rb[00m   [00mprojects_controller.rb[00m
+[00maccounts_controller.rb[00m  [01;34madmin[00m                    [00mapplication.rb~[00m  [00mprojects_controller.rb~[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/controllersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/controllers$ cd ..
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/appgorsky@gorsky-laptop:~/projekty/rails/project_manager/app$ cd ..
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ ls
+[00m[01;34mapp[00m     [01;34mdb[00m   [00mgenerate[00m  [01;34mlog[00m                          [01;34mpublic[00m    [00mREADME[00m  [01;34mtest[00m  [01;34mvendor[00m
+[01;34mconfig[00m  [01;34mdoc[00m  [01;34mlib[00m       [00mproject_manager_development[00m  [00mRakefile[00m  [01;34mscript[00m  [01;34mtmp[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ sci[Kript/generate
+/var/lib/gems/1.8/gems/activesupport-2.1.1/lib/active_support/core_ext/module/aliasing.rb:31:in `alias_method': undefined method `find_full_template_path' for class `ActionView::Base' (NameError)
+	from /var/lib/gems/1.8/gems/activesupport-2.1.1/lib/active_support/core_ext/module/aliasing.rb:31:in `alias_method_chain'
+	from /home/gorsky/projekty/rails/project_manager/vendor/plugins/active_scaffold/lib/extensions/generic_view_paths.rb:33
+	from /usr/lib/ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /usr/lib/ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from /var/lib/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+	from /var/lib/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:355:in `new_constants_in'
+	from /var/lib/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+	from /home/gorsky/projekty/rails/project_manager/vendor/plugins/active_scaffold/environment.rb:63
+	 ... 22 levels...
+	from /var/lib/gems/1.8/gems/rails-2.1.1/lib/commands/generate.rb:1
+	from /usr/lib/ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /usr/lib/ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from script/generate:3
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ cd vendor/
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/vendorgorsky@gorsky-laptop:~/projekty/rails/project_manager/vendor$ ls
+[00m[01;36mactionmailer[00m  [01;36mactionpack[00m  [01;36mactivemodel[00m  [01;36mactiverecord[00m  [01;36mactiveresource[00m  [01;36mactivesupport[00m  [01;34mplugins[00m  [01;36mrailties[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/vendorgorsky@gorsky-laptop:~/projekty/rails/project_manager/vendor$ cd plugins/
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/vendor/pluginsgorsky@gorsky-laptop:~/projekty/rails/project_manager/vendor/plugins$ ls
+[00m[01;34mactive_scaffold[00m  [01;34macts_as_authenticated[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/vendor/pluginsgorsky@gorsky-laptop:~/projekty/rails/project_manager/vendor/plugins$ ls
+[00m[01;34mactive_scaffold[00m  [01;31mactive_scaffold.tar[00m  [01;34macts_as_authenticated[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/vendor/pluginsgorsky@gorsky-laptop:~/projekty/rails/project_manager/vendor/plugins$ rm -r acr[Kt
+active_scaffold/       active_scaffold.tar    acts_as_authenticated/ 
+gorsky@gorsky-laptop:~/projekty/rails/project_manager/vendor/plugins$ rm -r active_scaffold
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/vendor/pluginsgorsky@gorsky-laptop:~/projekty/rails/project_manager/vendor/plugins$ ls
+[00m[01;31mactive_scaffold.tar[00m  [01;34macts_as_authenticated[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/vendor/pluginsgorsky@gorsky-laptop:~/projekty/rails/project_manager/vendor/plugins$ tar -x active_scaffold.tar 
+
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/vendor/pluginsgorsky@gorsky-laptop:~/projekty/rails/project_manager/vendor/plugins$ tar -x active_scaffold.tar [1@f
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/vendor/pluginsgorsky@gorsky-laptop:~/projekty/rails/project_manager/vendor/plugins$ ls
+[00m[01;34mactive_scaffold[00m  [01;31mactive_scaffold.tar[00m  [01;34macts_as_authenticated[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/vendor/pluginsgorsky@gorsky-laptop:~/projekty/rails/project_manager/vendor/plugins$ rm -ac[K[K[Kactive_scaffold
+rm: nie można usunąć `active_scaffold': Is a directory
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/vendor/pluginsgorsky@gorsky-laptop:~/projekty/rails/project_manager/vendor/plugins$ rm active_scaffold/[K.rar[K[K[Ktar
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/vendor/pluginsgorsky@gorsky-laptop:~/projekty/rails/project_manager/vendor/plugins$ ls
+[00m[01;34mactive_scaffold[00m  [01;34macts_as_authenticated[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/vendor/pluginsgorsky@gorsky-laptop:~/projekty/rails/project_manager/vendor/plugins$ cd act
+bash: cd: act: No such file or directory
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/vendor/pluginsgorsky@gorsky-laptop:~/projekty/rails/project_manager/vendor/plugins$ cd active_scaffold/
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/vendor/plugins/active_scaffoldgorsky@gorsky-laptop:~/projekty/rails/project_manager/vendor/plugins/active_scaffold$ ls
+[00m[00mCHANGELOG[00m       [01;34mfrontends[00m  [01;32minstall_assets.rb[00m  [01;34mlib[00m          [01;34mpublic[00m    [00mREADME[00m  [00muninstall.rb[00m
+[00menvironment.rb[00m  [01;32minit.rb[00m    [00minstall.rb[00m         [00mMIT-LICENSE[00m  [00mRakefile[00m  [01;34mtest[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/vendor/plugins/active_scaffoldgorsky@gorsky-laptop:~/projekty/rails/project_manager/vendor/plugins/active_scaffold$ cd ..
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/vendor/pluginsgorsky@gorsky-laptop:~/projekty/rails/project_manager/vendor/plugins$ ls
+[00m[01;34mactive_scaffold[00m  [01;34macts_as_authenticated[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/vendor/pluginsgorsky@gorsky-laptop:~/projekty/rails/project_manager/vendor/plugins$ cd ..
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/vendorgorsky@gorsky-laptop:~/projekty/rails/project_manager/vendor$ cd ..
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ ls
+[00m[01;34mapp[00m     [01;34mdb[00m   [00mgenerate[00m  [01;34mlog[00m                          [01;34mpublic[00m    [00mREADME[00m  [01;34mtest[00m  [01;34mvendor[00m
+[01;34mconfig[00m  [01;34mdoc[00m  [01;34mlib[00m       [00mproject_manager_development[00m  [00mRakefile[00m  [01;34mscript[00m  [01;34mtmp[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ script/generate controller admin/users
+      exists  app/controllers/admin
+      create  app/helpers/admin
+      create  app/views/admin/users
+      create  test/functional/admin
+      create  app/controllers/admin/users_controller.rb
+      create  test/functional/admin/users_controller_test.rb
+      create  app/helpers/admin/users_helper.rb
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ cd '/home/gorsky/projekty/rails/project_manager/app/con trollers/admin'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/controllers/admingorsky@gorsky-laptop:~/projekty/rails/project_manager/app/controllers/admin$ cd ..
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/controllersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/controllers$ ls
+[00m[00maccount_controller.rb~[00m  [00maccounts_controller.rb~[00m  [00mapplication.rb[00m   [00mprojects_controller.rb[00m
+[00maccounts_controller.rb[00m  [01;34madmin[00m                    [00mapplication.rb~[00m  [00mprojects_controller.rb~[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/controllersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/controllers$ ls
+[00m[00maccount_controller.rb~[00m  [00maccounts_controller.rb~[00m  [00mapplication.rb[00m   [00mprojects_controller.rb[00m
+[00maccounts_controller.rb[00m  [01;34madmin[00m                    [00mapplication.rb~[00m  [00mprojects_controller.rb~[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/controllersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/controllers$ cd ..
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/appgorsky@gorsky-laptop:~/projekty/rails/project_manager/app$ ls
+[00m[01;34mcontrollers[00m  [01;34mhelpers[00m  [01;34mmodels[00m  [01;34mviews[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/appgorsky@gorsky-laptop:~/projekty/rails/project_manager/app$ cd views/
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/viewsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views$ cd layouts/
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/layoutsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/layouts$ ls
+[00m[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/layoutsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/layouts$ touch application.rhtml
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/layoutsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/layouts$ ""d"u"[1P"[1P"[K[Kcd '/home/gorsky/projekty/rails/proje ct_manager/app/views/layouts'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/layoutsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/layouts$ script/ser
+bash: script/ser: No such file or directory
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/layoutsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/layouts$ script/ser[K[K[K[K[K[K[K[K[K[Kcd ..
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/viewsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views$ c ..
+cd bash: c: polecenie nieodnalezione
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/viewsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views$ cd 
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/viewsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views$ cd ..
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/appgorsky@gorsky-laptop:~/projekty/rails/project_manager/app$ cd ..
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ script/server 
+=> Booting Mongrel (use 'script/server webrick' to force WEBrick)
+=> Rails 2.1.1 application starting on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+** Starting Mongrel listening at 0.0.0.0:3000
+Exiting
+/usr/lib/ruby/1.8/mongrel/tcphack.rb:12:in `initialize_without_backlog': Address already in use - bind(2) (Errno::EADDRINUSE)
+	from /usr/lib/ruby/1.8/mongrel/tcphack.rb:12:in `initialize'
+	from /usr/lib/ruby/1.8/mongrel.rb:93:in `new'
+	from /usr/lib/ruby/1.8/mongrel.rb:93:in `initialize'
+	from /usr/lib/ruby/1.8/mongrel/configurator.rb:139:in `new'
+	from /usr/lib/ruby/1.8/mongrel/configurator.rb:139:in `listener'
+	from /usr/lib/ruby/1.8/mongrel_rails:100:in `cloaker_'
+	from /usr/lib/ruby/1.8/mongrel/configurator.rb:50:in `call'
+	from /usr/lib/ruby/1.8/mongrel/configurator.rb:50:in `initialize'
+	 ... 14 levels...
+	from /var/lib/gems/1.8/gems/rails-2.1.1/lib/commands/server.rb:39
+	from /usr/lib/ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	from /usr/lib/ruby/1.8/rubygems/custom_require.rb:27:in `require'
+	from script/server:3
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ job[K[K[Kls
+[00m[01;34mapp[00m     [01;34mdb[00m   [00mgenerate[00m  [01;34mlog[00m                          [01;34mpublic[00m    [00mREADME[00m  [01;34mtest[00m  [01;34mvendor[00m
+[01;34mconfig[00m  [01;34mdoc[00m  [01;34mlib[00m       [00mproject_manager_development[00m  [00mRakefile[00m  [01;34mscript[00m  [01;34mtmp[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ script/generate model U[KComment
+      exists  app/models/
+      exists  test/unit/
+      exists  test/fixtures/
+      create  app/models/comment.rb
+      create  test/unit/comment_test.rb
+      create  test/fixtures/comments.yml
+      exists  db/migrate
+      create  db/migrate/20090308201227_create_comments.rb
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ cd '/home/gorsky/projekty/rails/project_manager/app/mod els'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/modelsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/models$ cd '/home/gorsky/projekty/rails/project_mana ger/config'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/configgorsky@gorsky-laptop:~/projekty/rails/project_manager/config$ cd '/home/gorsky/projekty/rails/project_manager/ app/models'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/modelsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/models$ cd '/home/gorsky/projekty/rails/project_mana ger/app/models'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/modelsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/models$ cd '/home/gorsky/projekty/rails/project_mana ger/db/migrate'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/db/migrategorsky@gorsky-laptop:~/projekty/rails/project_manager/db/migrate$ cd '/home/gorsky/projekty/rails/project_mana ger/app/models'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/modelsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/models$ cd '/home/gorsky/projekty/rails/project_mana ger/db/migrate'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/db/migrategorsky@gorsky-laptop:~/projekty/rails/project_manager/db/migrate$ cd ..
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/dbgorsky@gorsky-laptop:~/projekty/rails/project_manager/db$ cd ..
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ rake db:migrate
+(in /home/gorsky/projekty/rails/project_manager)
+== 20090308201227 CreateComments: migrating ===================================
+-- create_table(:comments)
+   -> 0.0186s
+== 20090308201227 CreateComments: migrated (0.0190s) ==========================
+
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ ls
+[00m[01;34mapp[00m     [01;34mdb[00m   [00mgenerate[00m  [01;34mlog[00m                          [01;34mpublic[00m    [00mREADME[00m  [01;34mtest[00m  [01;34mvendor[00m
+[01;34mconfig[00m  [01;34mdoc[00m  [01;34mlib[00m       [00mproject_manager_development[00m  [00mRakefile[00m  [01;34mscript[00m  [01;34mtmp[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ cd '/home/gorsky/projekty/rails/project_manager/app/vie ws/projects'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/views/projects'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/views/layouts'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/layoutsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/layouts$ cd ../../..
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ ls
+[00m[01;34mapp[00m     [01;34mdb[00m   [00mgenerate[00m  [01;34mlog[00m                          [01;34mpublic[00m    [00mREADME[00m  [01;34mtest[00m  [01;34mvendor[00m
+[01;34mconfig[00m  [01;34mdoc[00m  [01;34mlib[00m       [00mproject_manager_development[00m  [00mRakefile[00m  [01;34mscript[00m  [01;34mtmp[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ rake db:migrate
+(in /home/gorsky/projekty/rails/project_manager)
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ cd '/home/gorsky/projekty/rails/project_manager/app/vie ws/projects'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/views/accounts'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/accountsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/accounts$ cd '/home/gorsky/projekty/rails/proj ect_manager/config'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/configgorsky@gorsky-laptop:~/projekty/rails/project_manager/config$ cd '/home/gorsky/projekty/rails/project_manager/ app/controllers'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/controllersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/controllers$ cd '/home/gorsky/projekty/rails/project _manager/app/views/accounts'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/accountsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/accounts$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/controllers'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/controllersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/controllers$ cd '/home/gorsky/projekty/rails/project _manager/app/views/accounts'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/accountsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/accounts$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/controllers'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/controllersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/controllers$ cd '/home/gorsky/projekty/rails/project _manager/app/views/accounts'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/accountsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/accounts$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/controllers'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/controllersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/controllers$ cd '/home/gorsky/projekty/rails/project _manager/app/helpers'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/helpersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/helpers$ cd '/home/gorsky/projekty/rails/project_man ager/lib'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/libgorsky@gorsky-laptop:~/projekty/rails/project_manager/lib$ cd '/home/gorsky/projekty/rails/project_manager/app /views/accounts'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/accountsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/accounts$ cd ..
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/viewsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views$ ls
+[00m[01;34maccounts[00m  [01;34madmin[00m  [01;34mlayouts[00m  [01;34mprojects[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/viewsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views$ cd projects/
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ ls
+[00m[00medit.rhtml[00m  [00medit.rhtml~[00m  [00mindex.rhtml[00m  [00mindex.rhtml~[00m  [01;34mproject[00m  [00m_project.rhtml[00m  [00m_project.rhtml~[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ mv edit.rhtml ../
+accounts/ admin/    layouts/  projects/ 
+gorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ mv edit.rhtml ../accounts/
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ ls
+[00m[00medit.rhtml~[00m  [00mindex.rhtml[00m  [00mindex.rhtml~[00m  [01;34mproject[00m  [00m_project.rhtml[00m  [00m_project.rhtml~[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ rm edit.rhtml~ 
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ cd ..
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/viewsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views$ ls
+[00m[01;34maccounts[00m  [01;34madmin[00m  [01;34mlayouts[00m  [01;34mprojects[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/viewsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views$ cd accounts/
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/accountsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/accounts$ ls
+[00m[00medit.rhtml[00m  [00mindex.rhtml[00m  [00mindex.rhtml~[00m  [00mlogin.rhtml[00m  [00mlogin.rhtml~[00m  [00msignup.rhtml[00m  [00msignup.rhtml~[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/accountsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/accounts$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/views/accounts'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/accountsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/accounts$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/controllers'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/controllersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/controllers$ cd '/home/gorsky/projekty/rails/project _manager/app/views/accounts'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/accountsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/accounts$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/controllers'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/controllersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/controllers$ script/ser[K[K[Kconsol[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ..
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/appgorsky@gorsky-laptop:~/projekty/rails/project_manager/app$ cd ..
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ script/console 
+Loading development environment (Rails 2.1.1)
+>> u = Use[K[K[K[K[K[K[Ku = User.first
+=> #<User id: 1, login: "ynka", crypted_password: "d783872a36fd5e6f345fe317c70acc0b34b9043b", salt: "fbc1a18201da0e2b1018ea499a1afa9052f01da0", created_at: "2009-03-08 20:21:07", updated_at: "2009-03-08 20:21:07", remember_token: nil, remember_token_expires_at: nil>
+>> u.update_attribute[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ cd '/home/gorsky/projekty/rails/project_manager/app/vie ws/accounts'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/accountsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/accounts$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/controllers/admin'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/controllers/admingorsky@gorsky-laptop:~/projekty/rails/project_manager/app/controllers/admin$ cd '/home/gorsky/projekty/rails/p roject_manager/app/controllers'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/controllersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/controllers$ cd '/home/gorsky/projekty/rails/project _manager/app/views/accounts'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/accountsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/accounts$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/views/projects'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/controllers'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/controllersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/controllers$ cd '/home/gorsky/projekty/rails/project _manager/app/views/projects'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/controllers'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/controllersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/controllers$ cd '/home/gorsky/projekty/rails/project _manager/app/views/projects'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/controllers'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/controllersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/controllers$ cd '/home/gorsky/projekty/rails/project _manager/lib'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/libgorsky@gorsky-laptop:~/projekty/rails/project_manager/lib$ cd '/home/gorsky/projekty/rails/project_manager/app /controllers'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/controllersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/controllers$ cd '/home/gorsky/projekty/rails/project _manager/app/views/projects'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/views/projects'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ cd ..
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/viewsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views$ cd ..
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/appgorsky@gorsky-laptop:~/projekty/rails/project_manager/app$ cd ..
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ script/console 
+Loading development environment (Rails 2.1.1)
+>> p = Project.first
+=> #<Project id: 1, name: "Mieszkania studenckie", created_at: "2009-03-08 20:21:35", updated_at: "2009-03-08 20:21:35">
+>> p.developers
+=> [#<User id: 1, login: "ynka", crypted_password: "d783872a36fd5e6f345fe317c70acc0b34b9043b", salt: "fbc1a18201da0e2b1018ea499a1afa9052f01da0", created_at: "2009-03-08 20:21:07", updated_at: "2009-03-08 20:21:07", remember_token: nil, remember_token_expires_at: nil>, #<User id: 2, login: "gorsky", crypted_password: "f5ac0fda03ac234f44559e3361ada27e618ce8f4", salt: "eb10a7b0eefc0739b7817e31f426a6ab95203f41", created_at: "2009-03-08 20:23:53", updated_at: "2009-03-08 22:11:05", remember_token: nil, remember_token_expires_at: nil>]
+>> exit
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ script/console 
+Loading development environment (Rails 2.1.1)
+>> ]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ ls
+[00m[01;34mapp[00m     [01;34mdb[00m   [00mgenerate[00m  [01;34mlog[00m                          [01;34mpublic[00m    [00mREADME[00m  [01;34mtest[00m  [01;34mvendor[00m
+[01;34mconfig[00m  [01;34mdoc[00m  [01;34mlib[00m       [00mproject_manager_development[00m  [00mRakefile[00m  [01;34mscript[00m  [01;34mtmp[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ cd '/home/gorsky/projekty/rails/project_manager/app/vie ws/projects'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/controllers'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/controllersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/controllers$ cd '/home/gorsky/projekty/rails/project _manager/app/views/projects'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/views/accounts'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/accountsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/accounts$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/views/projects'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/views/accounts'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/accountsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/accounts$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/views/projects'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/views/accounts'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/accountsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/accounts$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/views/projects'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/controllers'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/controllersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/controllers$ cd ..
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/appgorsky@gorsky-laptop:~/projekty/rails/project_manager/app$ cd ..
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ script/console 
+Loading development environment (Rails 2.1.1)
+>> cd '/home/gorsky/projekty/rails/project_manager/app/views/projects'
+NoMethodError: undefined method `cd' for #<Object:0xb7d059a0>
+	from (irb):1
+>> cd '/home/gorsky/projekty/rails/project_manager/app/controllers'
+NoMethodError: undefined method `cd' for #<Object:0xb7d059a0>
+	from (irb):2
+>> Comment.find_all
+NoMethodError: undefined method `find_all' for #<Class:0xb7040cec>
+	from /var/lib/gems/1.8/gems/activerecord-2.1.1/lib/active_record/base.rb:1672:in `method_missing'
+	from (irb):3
+>> Comment.find_all[K[K[K[K(:all)
+=> [#<Comment id: 1, user_id: nil, project_id: nil, content: "dsa", created_at: "2009-03-09 00:02:48", updated_at: "2009-03-09 00:02:48">, #<Comment id: 2, user_id: nil, project_id: nil, content: "asdasd", created_at: "2009-03-09 00:04:00", updated_at: "2009-03-09 00:04:00">, #<Comment id: 3, user_id: nil, project_id: nil, content: "asdfasdf", created_at: "2009-03-09 00:05:45", updated_at: "2009-03-09 00:05:45">, #<Comment id: 4, user_id: nil, project_id: nil, content: "SFDSADF", created_at: "2009-03-09 00:08:31", updated_at: "2009-03-09 00:08:31">]
+>> Comment.destroy_all
+=> [#<Comment id: 1, user_id: nil, project_id: nil, content: "dsa", created_at: "2009-03-09 00:02:48", updated_at: "2009-03-09 00:02:48">, #<Comment id: 2, user_id: nil, project_id: nil, content: "asdasd", created_at: "2009-03-09 00:04:00", updated_at: "2009-03-09 00:04:00">, #<Comment id: 3, user_id: nil, project_id: nil, content: "asdfasdf", created_at: "2009-03-09 00:05:45", updated_at: "2009-03-09 00:05:45">, #<Comment id: 4, user_id: nil, project_id: nil, content: "SFDSADF", created_at: "2009-03-09 00:08:31", updated_at: "2009-03-09 00:08:31">]
+>> Comment.destroy_all
+=> []
+>> exit
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ scri
+scribus       script/       scriptreplay  
+gorsky@gorsky-laptop:~/projekty/rails/project_manager$ scri
+scribus       script/       scriptreplay  
+gorsky@gorsky-laptop:~/projekty/rails/project_manager$ script/console
+Loading development environment (Rails 2.1.1)
+>> ls
+NameError: undefined local variable or method `ls' for #<Object:0xb7c9e9a8>
+	from (irb):1
+>> Comment.find(:all)
+=> []
+>> exit
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ cd '/home/gorsky/projekty/rails/project_manager/app/vie ws/projects'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/controllers'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/controllersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/controllers$ cd '/home/gorsky/projekty/rails/project _manager/app/views/projects'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/controllers'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/controllersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/controllers$ cd '/home/gorsky/projekty/rails/project _manager/app/views/layouts'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/layoutsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/layouts$ cd '/home/gorsky/projekty/rails/proje ct_manager/app/views/accounts'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/accountsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/accounts$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/controllers'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/controllersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/controllers$ cd '/home/gorsky/projekty/rails/project _manager/lib'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/libgorsky@gorsky-laptop:~/projekty/rails/project_manager/lib$ cd '/home/gorsky/projekty/rails/project_manager/app /models'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/modelsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/models$ cd '/home/gorsky/projekty/rails/project_mana ger/app/views/projects'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/views/layouts'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/layoutsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/layouts$ cd '/home/gorsky/projekty/rails/proje ct_manager/app/views/accounts'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/accountsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/accounts$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/views/layouts'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/layoutsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/layouts$ cd '/home/gorsky/projekty/rails/proje ct_manager/app/views/projects'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/views/layouts'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/layoutsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/layouts$ cd '/home/gorsky/projekty/rails/proje ct_manager/app/controllers'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/controllersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/controllers$ cd '/home/gorsky/projekty/rails/project _manager/app/views/accounts'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/accountsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/accounts$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/controllers'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/controllersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/controllers$ cd '/home/gorsky/projekty/rails/project _manager/lib'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/libgorsky@gorsky-laptop:~/projekty/rails/project_manager/lib$ cd '/home/gorsky/projekty/rails/project_manager/app /views/projects'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ [Kgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ [Kgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/views/accounts'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/accountsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/accounts$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/views/projects'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ cd '/home/gorsky/projekty/rails/proj ect_manager/lib'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/libgorsky@gorsky-laptop:~/projekty/rails/project_manager/lib$ cd '/home/gorsky/projekty/rails/project_manager/app /views/accounts'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/accountsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/accounts$ cd '/home/gorsky/projekty/rails/proj ect_manager/db/migrate'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/db/migrategorsky@gorsky-laptop:~/projekty/rails/project_manager/db/migrate$ cd ..cd [K[K[K
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/dbgorsky@gorsky-laptop:~/projekty/rails/project_manager/db$ cd ..
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ ls
+[00m[01;34mapp[00m     [01;34mdb[00m   [00mgenerate[00m  [01;34mlog[00m                          [01;34mpublic[00m    [00mREADME[00m  [01;34mtest[00m  [01;34mvendor[00m
+[01;34mconfig[00m  [01;34mdoc[00m  [01;34mlib[00m       [00mproject_manager_development[00m  [00mRakefile[00m  [01;34mscript[00m  [01;34mtmp[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ ls
+[00m[01;34mapp[00m     [01;34mdb[00m   [00mgenerate[00m  [01;34mlog[00m                          [01;34mpublic[00m    [00mREADME[00m  [01;34mtest[00m  [01;34mvendor[00m
+[01;34mconfig[00m  [01;34mdoc[00m  [01;34mlib[00m       [00mproject_manager_development[00m  [00mRakefile[00m  [01;34mscript[00m  [01;34mtmp[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ ls
+[00m[01;34mapp[00m     [01;34mdb[00m   [00mgenerate[00m  [01;34mlog[00m                          [01;34mpublic[00m    [00mREADME[00m  [01;34mtest[00m  [01;34mvendor[00m
+[01;34mconfig[00m  [01;34mdoc[00m  [01;34mlib[00m       [00mproject_manager_development[00m  [00mRakefile[00m  [01;34mscript[00m  [01;34mtmp[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ k[Kls
+[00m[01;34mapp[00m     [01;34mdb[00m   [00mgenerate[00m  [01;34mlog[00m                          [01;34mpublic[00m    [00mREADME[00m  [01;34mtest[00m  [01;34mvendor[00m
+[01;34mconfig[00m  [01;34mdoc[00m  [01;34mlib[00m       [00mproject_manager_development[00m  [00mRakefile[00m  [01;34mscript[00m  [01;34mtmp[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ lss[K
+[00m[01;34mapp[00m     [01;34mdb[00m   [00mgenerate[00m  [01;34mlog[00m                          [01;34mpublic[00m    [00mREADME[00m  [01;34mtest[00m  [01;34mvendor[00m
+[01;34mconfig[00m  [01;34mdoc[00m  [01;34mlib[00m       [00mproject_manager_development[00m  [00mRakefile[00m  [01;34mscript[00m  [01;34mtmp[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ ls
+[00m[01;34mapp[00m     [01;34mdb[00m   [00mgenerate[00m  [01;34mlog[00m                          [01;34mpublic[00m    [00mREADME[00m  [01;34mtest[00m  [01;34mvendor[00m
+[01;34mconfig[00m  [01;34mdoc[00m  [01;34mlib[00m       [00mproject_manager_development[00m  [00mRakefile[00m  [01;34mscript[00m  [01;34mtmp[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ ls
+[00m[01;34mapp[00m     [01;34mdb[00m   [00mgenerate[00m  [01;34mlog[00m                          [01;34mpublic[00m    [00mREADME[00m  [01;34mtest[00m  [01;34mvendor[00m
+[01;34mconfig[00m  [01;34mdoc[00m  [01;34mlib[00m       [00mproject_manager_development[00m  [00mRakefile[00m  [01;34mscript[00m  [01;34mtmp[00m
+[m]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ scri[[Kpt.[K/generate migration AddPriorityAndStatusToProject [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kt
+      exists  db/migrate
+      create  db/migrate/20090309000813_add_priority_and_status_to_project.rb
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ rake db:migrate
+(in /home/gorsky/projekty/rails/project_manager)
+== 20090309000813 AddPriorityAndStatusToProject: migrating ====================
+-- add_column(:projects, :priority, :integer, {:default=>1})
+   -> 0.0838s
+-- add_column(:projects, :status, :integer, {:default=>1})
+   -> 0.0232s
+== 20090309000813 AddPriorityAndStatusToProject: migrated (0.1079s) ===========
+
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ cd '/home/gorsky/projekty/rails/project_manager/app/hel pers'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/helpersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/helpers$ cd '/home/gorsky/projekty/rails/project_man ager/app/views/projects'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/helpers'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/helpersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/helpers$ cd '/home/gorsky/projekty/rails/project_man ager/app/views/projects'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/controllers'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/controllersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/controllers$ cd ..
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/appgorsky@gorsky-laptop:~/projekty/rails/project_manager/app$ cd ..
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ script/console 
+Loading development environment (Rails 2.1.1)
+>> Project
+=> Project(id: integer, name: string, created_at: datetime, updated_at: datetime, priority: integer, status: integer)
+>> exit
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_managergorsky@gorsky-laptop:~/projekty/rails/project_manager$ cd '/home/gorsky/projekty/rails/project_manager/app/vie ws/projects'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/views/projects'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/controllers'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/controllersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/controllers$ cd '/home/gorsky/projekty/rails/project _manager/app/views/projects'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/controllers'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/controllersgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/controllers$ cd '/home/gorsky/projekty/rails/project _manager/app/views/projects'
+]0;gorsky@gorsky-laptop: ~/projekty/rails/project_manager/app/views/projectsgorsky@gorsky-laptop:~/projekty/rails/project_manager/app/views/projects$ cd '/home/gorsky/projekty/rails/proj ect_manager/app/controllers'
+]0;gorsky@gorsky-laptop: ~/proj
